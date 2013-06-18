@@ -38,6 +38,8 @@ function handleText(textNode)
 
 	v = v.replace(/\bcloud computing\b/gi, "NSA datamining");
 	v = v.replace(/\bcloudcomputing\b/gi, "NSAdatamining");
+	v = v.replace(/\bcloud_computing\b/gi, "NSA_datamining");
+	v = v.replace(/\bcloud-computing\b/gi, "NSA-datamining");
 	
 
 	v = v.replace(/\bThe Cloud\b/g, "The NSA");
@@ -47,6 +49,8 @@ function handleText(textNode)
 
 	v = v.replace(/\bthe cloud\b/gi, "the NSA");
 	v = v.replace(/\bthecloud\b/gi, "theNSA");
+	v = v.replace(/\bthe_cloud\b/gi, "the_NSA");
+	v = v.replace(/\bthe-cloud\b/gi, "the-NSA");
 	
 	
 	textNode.nodeValue = v;
