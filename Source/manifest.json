@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
-	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"name": "Cloud To NSA",
+	"version": "1.1",
+	"description": "Replaces the text 'the cloud' with 'the NSA'.",
 	"content_scripts": 
 	[
 		{
